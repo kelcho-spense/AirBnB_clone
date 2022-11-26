@@ -91,6 +91,6 @@ EOF  all  create  destroy  help  quit  show  update
 ```
 # Authors
 ***
-  * Samson Tedla <samitedla23@gmail.com>
-  * Elnatan Samuel <krosection999@gmail.com>
+  * Kevin Gatimu <kelchospense88@gmail.com>
+  * Peter Adewole <phemmyadey@gmail.com>
 ---
