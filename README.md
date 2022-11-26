@@ -12,7 +12,7 @@
 ### Clone this repository in your terminal:
 ***
 
-$ git clone https://github.com/Samsontedla/AirBnB_clone
+$ git clone https:github.com/kelcho-spense/AirBnB_clone/
 ---
 ## Execution
 ### Console should work like this in interactive mode:
@@ -91,6 +91,6 @@ EOF  all  create  destroy  help  quit  show  update
 ```
 # Authors
 ***
-  * Samson Tedla <samitedla23@gmail.com>
-  * Elnatan Samuel <krosection999@gmail.com>
+  * Kevin Gatimu <kelchospense88@gmail.com>
+  * Peter Adewole <phemmyadey@gmail.com>
 ---
