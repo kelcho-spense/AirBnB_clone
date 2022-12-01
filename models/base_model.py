@@ -2,9 +2,7 @@
 """
 File: base_model.py
 
-Authors:
-        Samson Tedla <samitedla23@gmail.com>
-        Elnatan Samuel <krosection999@gmail.com>
+
 
 Defines a class called BaseModel
 """
@@ -15,6 +13,7 @@ import models
 
 class BaseModel:
     """A class that represents the BaseModel for the HBnB project"""
+
     def __init__(self, *args, **kwargs):
         """
         Initilize a new BaseModel
@@ -26,12 +25,12 @@ class BaseModel:
         #self.id = str(uuid.uuid4())
         #self.created_at = datetime.today()
         #self.updated_at = datetime.today()
-        #models.storage.new(self)
+        # models.storage.new(self)
         if len(kwargs) != 0:
             for key, value in kwargs.items():
                 if key == "created_at" or key == "updated_at":
                     self.__dict__[key] = datetime.strptime(
-                                        value, "%Y-%m-%dT%H:%M:%S.%f")
+                        value, "%Y-%m-%dT%H:%M:%S.%f")
                 else:
                     self.__dict__[key] = value
         else:
@@ -39,6 +38,7 @@ class BaseModel:
             self.created_at = datetime.today()
             self.updated_at = datetime.today()
             models.storage.new(self)
+
     def save(self):
         """
         Updates the public instance attribute

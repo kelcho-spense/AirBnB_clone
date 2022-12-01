@@ -2,9 +2,7 @@
 """
 File: state.py
 
-Author:
-    Samson Tedla <samitedla23@gmail.com>
-    Elnatan Samuel <krosection999@gmail.com>
+
 
 Defines a class State
 """

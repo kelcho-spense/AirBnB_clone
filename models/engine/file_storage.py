@@ -2,9 +2,7 @@
 """
 File: file_storage.py
 
-Authors:
-    Samson Tedla <samitedla23@gmail.com>
-    Elnatan Samuel <krosection999@gmail.com>
+
 
 Defines a FileStorage class
 """
